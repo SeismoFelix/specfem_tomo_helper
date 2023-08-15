@@ -31,9 +31,12 @@ Remember to activate it every time you want to use `specfem_tomo_helper`. You ca
 
  Now install pip and cartopy with
  ```
- $ conda install pip cartopy pyproj
+ $ conda install pip=22.2.1 cartopy=0.19.0.post1 pyproj==3.0.1
  ```
-
+ Now install a compatible version of matplotlib
+ ```
+ $ conda install matplotlib==3.5.2
+ ```
  ### Installing specfem_tomo_helper
 
  Now that the environment has been set up, you can download and install `specfem_tomo_helper` with
