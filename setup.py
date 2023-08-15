@@ -27,7 +27,7 @@ setuptools.setup(
     ],
     python_requires='~=3.6',
     install_requires=[
-        "numpy", "scipy", "pyproj",
-        "pandas", "cartopy", "netCDF4"
+        "numpy==1.23.1", "scipy==1.8.1", "pyproj==3.0.1",
+        "pandas==1.4.3", "cartopy==0.19.0.post1", "netCDF4==1.6.0"
     ],
 )
